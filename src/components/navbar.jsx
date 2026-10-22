@@ -1,0 +1,15 @@
+const Navbar = () => {
+  return (
+    <nav className="flex justify-between bg-slate-700 text-white">
+        <div className="logo">
+            <span className="font-bold text-2xl mx-9">TuToDo</span>
+        </div>
+     <ul className="flex gap-8 mx-9">
+        <li>Home </li>
+        <li>Your tasks</li>
+     </ul>
+    </nav>
+  )
+}
+
+export default Navbar
